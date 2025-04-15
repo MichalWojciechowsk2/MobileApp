@@ -130,8 +130,8 @@ class MemoryBoardView(
         button.pivotY = random.nextFloat() * 200f
 
         val rotation = ObjectAnimator.ofFloat(button, "rotation", 720f)
-        val scallingX = ObjectAnimator.ofFloat(button, "scaleX", 1f, 1.2f)
-        val scallingY = ObjectAnimator.ofFloat(button, "scaleY", 1f, 1.2f)
+        val scallingX = ObjectAnimator.ofFloat(button, "scaleX", 1f, 0.1f)
+        val scallingY = ObjectAnimator.ofFloat(button, "scaleY", 1f, 0.1f)
         val fade = ObjectAnimator.ofFloat(button, "alpha", 1f, 0.8f)
         set.startDelay = 200
         set.duration = 1000
